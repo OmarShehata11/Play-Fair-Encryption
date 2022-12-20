@@ -55,7 +55,7 @@ the cipher text : KCKYHR
 - The first thing to note is the generated key printed in a matrix shape, then the final string (which is the text after modification according to the rules of the algorithm to make it ready to be encrypted) then the size of the final text, and at last the CipherText. 
 - So the encryption of the hello text with the key omar, will generate the ciphertext: KCKYHR, so let’s then try to decrypt that string to make sure that the program is running well. 
 
-We will write at the terminal: ./a.out -k omar -d KCKYHR And it will print to us:  
+We will write at the terminal: ```./PlayFair -k omar -d KCKYHR``` And it will print to us:  
 ```bash
 O | M | A | R | B |
 
